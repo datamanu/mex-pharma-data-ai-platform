@@ -11,6 +11,12 @@ Proyecto desarrollado como caso práctico end-to-end de ingeniería de datos, an
 ![Power BI](https://img.shields.io/badge/Power_BI-Analytics-yellow)
 ![AI](https://img.shields.io/badge/IA-LangChain-purple)
 
+## Arquitectura de la solución
+
+La plataforma integra ingesta, procesamiento, gobierno, analítica e inteligencia artificial en una sola arquitectura end-to-end.
+
+![Arquitectura MEX PHARMA](architecture/Arquitectura.png)
+
 ## La solución en funcionamiento
 
 El proyecto transforma datos farmacéuticos provenientes de una fuente externa en información preparada para análisis y toma de decisiones.
