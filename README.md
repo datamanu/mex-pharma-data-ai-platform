@@ -7,13 +7,13 @@ Data Engineer | Databricks | Azure | Data & AI
 
 Proyecto desarrollado como caso práctico end-to-end de ingeniería de datos, analítica e Inteligencia Artificial.
 
-![Status](https://img.shields.io/badge/Estado-POC_Completado-success)
+
 ![Databricks](https://img.shields.io/badge/Databricks-Lakehouse-red)
 ![Azure](https://img.shields.io/badge/Microsoft_Azure-Cloud-blue)
 ![Power BI](https://img.shields.io/badge/Power_BI-Analytics-yellow)
 ![AI](https://img.shields.io/badge/IA-LangChain-purple)
 
-## 📌 Descripción del proyecto
+## Descripción del proyecto
 
 **MEX PHARMA** es una prueba de concepto (POC) de una plataforma de datos e inteligencia artificial para el análisis de información farmacéutica, ventas e inventario.
 
@@ -26,7 +26,7 @@ El objetivo no es únicamente visualizar datos, sino demostrar cómo diferentes 
 
 ---
 
-## 🎯 Problema de negocio
+## Problema de negocio
 
 Una compañía farmacéutica necesita integrar información de productos proveniente de fuentes externas y convertirla en información confiable que pueda utilizarse para analizar:
 
@@ -53,7 +53,7 @@ Ejemplos:
 
 ---
 
-## 💡 Solución propuesta
+## Solución propuesta
 
 Se diseñó una arquitectura de datos que integra servicios de **Microsoft Azure, Databricks, Power BI e Inteligencia Artificial**.
 
