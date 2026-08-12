@@ -19,7 +19,19 @@ La plataforma integra ingesta, procesamiento, gobierno, analítica e inteligenci
 
 ## La solución en funcionamiento
 
-El proyecto transforma datos farmacéuticos provenientes de una fuente externa en información preparada para análisis y toma de decisiones.
+El proyecto transforma datos farmacéuticos provenientes de una fuente externa (Federal Drug Administration) en información preparada para análisis y toma de decisiones.
+
+## Integración Azure
+
+La solución utiliza Azure Data Factory para la ingesta y orquestación de datos externos.
+
+Los datos provenientes de openFDA son almacenados inicialmente en Azure Data Lake Storage Gen2 como información raw antes de ser procesados en Databricks.
+
+Este patrón permite conservar la fuente original y habilitar reprocesamientos posteriores.
+
+**Flujo:**
+
+openFDA API > Azure Data Factory > ADLS Gen2 > Databricks
 
 ### Dashboard ejecutivo
 
@@ -38,9 +50,8 @@ Por ejemplo, un usuario puede preguntar qué productos presentan un riesgo crít
 ![Asistente de IA - Análisis de inventario](screenshots/AI_Assistant_Screenshot%202.png)
 
 > **Del dato crudo a la decisión:** la misma plataforma de datos alimenta tanto la analítica ejecutiva en Power BI como un asistente de IA capaz de responder preguntas sobre ventas e inventario.
-## Descripción del proyecto
 
-**MEX PHARMA** es una prueba de concepto (POC) de una plataforma de datos e inteligencia artificial para el análisis de información farmacéutica, ventas e inventario.
+## Alcance del proyecto
 
 El proyecto demuestra la construcción de una solución **end-to-end**, comenzando con la ingesta de información desde una API pública, continuando con su almacenamiento, procesamiento, validación y modelado mediante una arquitectura Lakehouse, y terminando con dos productos de consumo:
 
@@ -81,32 +92,5 @@ Ejemplos:
 ## Solución propuesta
 
 Se diseñó una arquitectura de datos que integra servicios de **Microsoft Azure, Databricks, Power BI e Inteligencia Artificial**.
-
-De manera simplificada:
-
-```text
-openFDA API
-     │
-     ▼
-Azure Data Factory
-     │
-     ▼
-Azure Data Lake Storage Gen2
-     │
-     ▼
-Databricks Lakehouse
-     │
-     ├── Bronze
-     │
-     ├── Silver
-     │
-     └── Gold
-          │
-          ├──────────────► Power BI
-          │
-          └──────────────► AI Agent
-                                │
-                                ▼
-                         Databricks App
 
 
