@@ -1,7 +1,5 @@
-# 💊 MEX PHARMA — Plataforma End-to-End de Datos e Inteligencia Artificial
-## 👤 Autor
-
-**Manuel Medina**
+# MEX PHARMA — Plataforma End-to-End de Datos e Inteligencia Artificial
+## 👤 Autor: **Manuel Medina**
 
 Data Engineer | Databricks | Azure | Data & AI
 
