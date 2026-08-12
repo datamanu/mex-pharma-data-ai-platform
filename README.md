@@ -27,8 +27,9 @@ Además del dashboard tradicional, se desarrolló un asistente que permite consu
 
 Por ejemplo, un usuario puede preguntar qué productos presentan un riesgo crítico de inventario en una región determinada y obtener una respuesta basada directamente en los datos gobernados de la plataforma.
 
-![Asistente de IA de MEX PHARMA](AI_Assistant_Screenshot 1.png)
-![Asistente de IA de MEX PHARMA](AI_Assistant_Screenshot 2.png)
+![Asistente de IA - Análisis de ventas](screenshots/AI_Assistant_Screenshot%201.png)
+
+![Asistente de IA - Análisis de inventario](screenshots/AI_Assistant_Screenshot%202.png)
 
 > **Del dato crudo a la decisión:** la misma plataforma de datos alimenta tanto la analítica ejecutiva en Power BI como un asistente de IA capaz de responder preguntas sobre ventas e inventario.
 ## Descripción del proyecto
