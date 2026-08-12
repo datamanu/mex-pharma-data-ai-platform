@@ -11,6 +11,26 @@ Proyecto desarrollado como caso práctico end-to-end de ingeniería de datos, an
 ![Power BI](https://img.shields.io/badge/Power_BI-Analytics-yellow)
 ![AI](https://img.shields.io/badge/IA-LangChain-purple)
 
+## La solución en funcionamiento
+
+El proyecto transforma datos farmacéuticos provenientes de una fuente externa en información preparada para análisis y toma de decisiones.
+
+### Dashboard ejecutivo
+
+Los datos procesados en Databricks son consumidos desde Power BI para analizar ventas, inventario, desempeño regional y riesgo de reabastecimiento.
+
+![Dashboard ejecutivo de MEX PHARMA](screenshots/Power_BI_Screenshot.png)
+
+### Asistente de Inteligencia Artificial
+
+Además del dashboard tradicional, se desarrolló un asistente que permite consultar los datos utilizando lenguaje natural.
+
+Por ejemplo, un usuario puede preguntar qué productos presentan un riesgo crítico de inventario en una región determinada y obtener una respuesta basada directamente en los datos gobernados de la plataforma.
+
+![Asistente de IA de MEX PHARMA](AI_Assistant_Screenshot 1.png)
+![Asistente de IA de MEX PHARMA](AI_Assistant_Screenshot 2.png)
+
+> **Del dato crudo a la decisión:** la misma plataforma de datos alimenta tanto la analítica ejecutiva en Power BI como un asistente de IA capaz de responder preguntas sobre ventas e inventario.
 ## Descripción del proyecto
 
 **MEX PHARMA** es una prueba de concepto (POC) de una plataforma de datos e inteligencia artificial para el análisis de información farmacéutica, ventas e inventario.
